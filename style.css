@@ -10,7 +10,19 @@ body{
     display: block;
     width: 100%;
 }
+.container .inner{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 30%;
+}
+.container .inner h1{
+    text-align: center;
+}
 
+.container .inner p{
+    text-align: center;
+}
 nav{
     position: fixed;
     z-index: 10;
